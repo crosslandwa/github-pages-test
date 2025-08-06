@@ -1,1 +1,2 @@
-<h1>Welcome Github Pages Test</h1>
+<p>Picture of cat</p>
+<p>Professional copywriting and editing with creativity and clarity at its core.</p>
