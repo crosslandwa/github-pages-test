@@ -1,6 +1,5 @@
 <script lang="ts">
-	import invisibleManchesterPdf from '$lib/assets/Invisible Manchester_0919.pdf';
-  import invisibleManchesterImg from '$lib/assets/Danny_edited.jpg';
+  import { asset } from '$app/paths'
 
 	let { children } = $props();
 </script>
@@ -9,13 +8,11 @@
 
 <ul>
   <li>
-    <a href={invisibleManchesterPdf} target="_blank">
+    <a href={asset('/Invisible Manchester_0919.pdf')} target="_blank">
       <img
-        loading="lazy"
         sizes="148px"
-        id="img_comp-k1ruq8nc"
-        src={invisibleManchesterImg}
-        alt="Danny_edited.jpg"
+        src={asset('/Danny_edited.jpg')}
+        alt="Danny"
         width="148"
         height="137"
         style="object-fit: cover;">
